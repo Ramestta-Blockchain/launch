@@ -4,7 +4,7 @@
 ##### RPC and REST configs #####
 
 # RPC endpoint for matic chain
-eth_rpc_url = "https://polygon.llamarpc.com"
+eth_rpc_url = "https://polygon-mumbai.api.onfinality.io/rpc?apikey=8eb6f30e-19b6-4b8d-a9a8-6d12e745e736"
 
 # RPC endpoint for bor chain
 bor_rpc_url = "http://localhost:8545"
@@ -29,6 +29,9 @@ span_poll_interval = "1m0s"
 
 #### gas limits ####
 main_chain_gas_limit = "5000000"
+
+#### gas price ####
+main_chain_max_gas_price = "400000000000"
 
 ##### Timeout Config #####
 no_ack_wait_time = "30m0s"

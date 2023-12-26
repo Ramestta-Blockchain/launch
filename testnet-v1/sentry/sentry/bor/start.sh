@@ -14,7 +14,7 @@ bor --datadir $DATA_DIR \
   --http.port 8545 \
   --http.api 'eth,net,web3,txpool,bor,admin' \
   --ipcpath $DATA_DIR/bor.ipc \
-  --networkid '1370' \
+  --networkid '1377' \
   --miner.gasprice '1000000000' \
   --maxpeers 200 \
   --metrics \

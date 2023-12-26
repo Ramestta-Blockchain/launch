@@ -1,6 +1,6 @@
 {
-  "genesis_time": "2023-12-22T11:24:25.089831801Z",
-  "chain_id": "heimdall-1370",
+  "genesis_time": "2023-12-21T10:33:47.502485728Z",
+  "chain_id": "heimdall-1377",
   "consensus_params": {
     "block": {
       "max_bytes": "22020096",
@@ -30,20 +30,7 @@
       },
       "accounts": [
         {
-          "address": "0xAD2841865D74C66C221438A974F27a009331e63F",
-          "coins": [
-            {
-              "denom": "rama",
-              "amount": "1000000000000000000000"
-            }
-          ],
-          "sequence_number": "0",
-          "account_number": "0",
-          "module_name": "",
-          "module_permissions": null
-        },
-        {
-          "address": "0x89F44d3455f7EF111E34d9bdb104F9489E6dCD61",
+          "address": "0x8A1888FCE319e234eb7B520cd9f871CC5ee15776",
           "coins": [
             {
               "denom": "rama",
@@ -79,8 +66,8 @@
                 "endEpoch": "0",
                 "nonce": "1",
                 "power": "10000",
-                "pubKey": "0x0401d2518f23e1ef3caf978e18126c97505bfb087d4746bafa1943143fdb3914f68944e1095a100afee826af50fa8e84c472e07842d7ca4d72bee709018cc8bdd3",
-                "signer": "0xAD2841865D74C66C221438A974F27a009331e63F",
+                "pubKey": "0x045972bddf3097a8ba0e52dc875145879a8910f030e133f3cd5df937e08af9b631b20a1db38b8cae63ab73cd0c413235baead638b609233fd6f069ad0e393a9a89",
+                "signer": "0x8A1888FCE319e234eb7B520cd9f871CC5ee15776",
                 "last_updated": "",
                 "jailed": false,
                 "accum": "0"
@@ -92,8 +79,8 @@
               "endEpoch": "0",
               "nonce": "1",
               "power": "10000",
-              "pubKey": "0x0401d2518f23e1ef3caf978e18126c97505bfb087d4746bafa1943143fdb3914f68944e1095a100afee826af50fa8e84c472e07842d7ca4d72bee709018cc8bdd3",
-              "signer": "0xAD2841865D74C66C221438A974F27a009331e63F",
+              "pubKey": "0x045972bddf3097a8ba0e52dc875145879a8910f030e133f3cd5df937e08af9b631b20a1db38b8cae63ab73cd0c413235baead638b609233fd6f069ad0e393a9a89",
+              "signer": "0x8A1888FCE319e234eb7B520cd9f871CC5ee15776",
               "last_updated": "",
               "jailed": false,
               "accum": "0"
@@ -106,29 +93,29 @@
               "endEpoch": "0",
               "nonce": "1",
               "power": "10000",
-              "pubKey": "0x0401d2518f23e1ef3caf978e18126c97505bfb087d4746bafa1943143fdb3914f68944e1095a100afee826af50fa8e84c472e07842d7ca4d72bee709018cc8bdd3",
-              "signer": "0xAD2841865D74C66C221438A974F27a009331e63F",
+              "pubKey": "0x045972bddf3097a8ba0e52dc875145879a8910f030e133f3cd5df937e08af9b631b20a1db38b8cae63ab73cd0c413235baead638b609233fd6f069ad0e393a9a89",
+              "signer": "0x8A1888FCE319e234eb7B520cd9f871CC5ee15776",
               "last_updated": "",
               "jailed": false,
               "accum": "0"
             }
           ],
-          "bor_chain_id": "1370"
+          "bor_chain_id": "1377"
         }
       ]
     },
     "chainmanager": {
       "params": {
-        "mainchain_tx_confirmations": "12",
-        "ramesttachain_tx_confirmations": "20",
+        "mainchain_tx_confirmations": "6",
+        "ramesttachain_tx_confirmations": "10",
         "chain_params": {
-          "bor_chain_id": "1370",
-          "rama_token_address": "0x55a5CC06801bBa4C030568f1A7ee1c753FDcbe36",
-          "staking_manager_address": "0xc032E6C4D196CBf4CceddbA1d18661F7DD57f659",
-          "slash_manager_address": "0xae032F1be5d139a679d975dB379E27aF2107D7D7",
-          "root_chain_address": "0x32BC23e5FFf7D567313dB4F41A5125Ad9D9Bca63",
-          "staking_info_address": "0x06FB27902B00a4CCF3850783dAB763364BF8654A",
-          "state_sender_address": "0xE0C9051E655380D1d880b9B0f4b500cEbD09278f",
+          "bor_chain_id": "1377",
+          "rama_token_address": "0x1eB6956E6c5F27d822FC34DF076f38e6535fA079",
+          "staking_manager_address": "0x4DeB327E827B48134F6ae1Ba1443145a3ECeb1A9",
+          "slash_manager_address": "0xa655E65cc4341348c5ef847D6C7EC168EcB9b056",
+          "root_chain_address": "0x9B438173600B51BF50A66A87032A00419a4f4924",
+          "staking_info_address": "0x402fdC8fAf19C78B6650C820063697368AB87c40",
+          "state_sender_address": "0x924eEb1aeB7860Dce05546e6116D5bE1F2e8291A",
           "state_receiver_address": "0x0000000000000000000000000000000000001001",
           "validator_set_address": "0x0000000000000000000000000000000000001000"
         }
@@ -209,8 +196,8 @@
           "endEpoch": "0",
           "nonce": "1",
           "power": "10000",
-          "pubKey": "0x0401d2518f23e1ef3caf978e18126c97505bfb087d4746bafa1943143fdb3914f68944e1095a100afee826af50fa8e84c472e07842d7ca4d72bee709018cc8bdd3",
-          "signer": "0xAD2841865D74C66C221438A974F27a009331e63F",
+          "pubKey": "0x045972bddf3097a8ba0e52dc875145879a8910f030e133f3cd5df937e08af9b631b20a1db38b8cae63ab73cd0c413235baead638b609233fd6f069ad0e393a9a89",
+          "signer": "0x8A1888FCE319e234eb7B520cd9f871CC5ee15776",
           "last_updated": "",
           "jailed": false,
           "accum": "0"
@@ -224,8 +211,8 @@
             "endEpoch": "0",
             "nonce": "1",
             "power": "10000",
-            "pubKey": "0x0401d2518f23e1ef3caf978e18126c97505bfb087d4746bafa1943143fdb3914f68944e1095a100afee826af50fa8e84c472e07842d7ca4d72bee709018cc8bdd3",
-            "signer": "0xAD2841865D74C66C221438A974F27a009331e63F",
+            "pubKey": "0x045972bddf3097a8ba0e52dc875145879a8910f030e133f3cd5df937e08af9b631b20a1db38b8cae63ab73cd0c413235baead638b609233fd6f069ad0e393a9a89",
+            "signer": "0x8A1888FCE319e234eb7B520cd9f871CC5ee15776",
             "last_updated": "",
             "jailed": false,
             "accum": "0"
@@ -237,8 +224,8 @@
           "endEpoch": "0",
           "nonce": "1",
           "power": "10000",
-          "pubKey": "0x0401d2518f23e1ef3caf978e18126c97505bfb087d4746bafa1943143fdb3914f68944e1095a100afee826af50fa8e84c472e07842d7ca4d72bee709018cc8bdd3",
-          "signer": "0xAD2841865D74C66C221438A974F27a009331e63F",
+          "pubKey": "0x045972bddf3097a8ba0e52dc875145879a8910f030e133f3cd5df937e08af9b631b20a1db38b8cae63ab73cd0c413235baead638b609233fd6f069ad0e393a9a89",
+          "signer": "0x8A1888FCE319e234eb7B520cd9f871CC5ee15776",
           "last_updated": "",
           "jailed": false,
           "accum": "0"
@@ -255,7 +242,7 @@
       "tx_sequences": null,
       "dividend_accounts": [
         {
-          "user": "0xad2841865d74c66c221438a974f27a009331e63f",
+          "user": "0x8A1888FCE319e234eb7B520cd9f871CC5ee15776",
           "feeAmount": "0"
         }
       ]

@@ -4,7 +4,7 @@
 ##### RPC and REST configs #####
 
 # RPC endpoint for matic chain
-eth_rpc_url = "https://polygon.llamarpc.com"
+eth_rpc_url = "https://rpc.ankr.com/polygon_mumbai"
 
 # RPC endpoint for bor chain
 bor_rpc_url = "http://localhost:8545"

@@ -3,8 +3,8 @@
 
 ##### RPC and REST configs #####
 
-# RPC endpoint for ethereum chain
-eth_rpc_url = "https://layer1.ramestta.com"
+# RPC endpoint for matic chain
+eth_rpc_url = "https://polygon.llamarpc.com"
 
 # RPC endpoint for bor chain
 bor_rpc_url = "http://localhost:8545"

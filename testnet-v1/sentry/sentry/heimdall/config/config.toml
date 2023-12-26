@@ -8,7 +8,7 @@
 proxy_app = "tcp://127.0.0.1:26658"
 
 # A custom human readable name for this node
-moniker = "RAMESTTA"
+moniker = "sentry-node"
 
 # If this node is many blocks behind the tip of the chain, FastSync
 # allows them to catchup quickly by downloading blocks in parallel
@@ -158,10 +158,10 @@ laddr = "tcp://0.0.0.0:26656"
 external_address = ""
 
 # Comma separated list of seed nodes to connect to
-seeds = ""
+seeds = "c74ae47fafee49d70ebdeb3bc8cf57e96bc2ea46@103.209.147.167:26656,89df557e54c217131bc74a2c1fc138e600b63046@103.146.242.190:26656"
 
 # Comma separated list of nodes to keep persistent connections to
-persistent_peers = "0ef321132ee02cbc45ed40a8c3d3b6d67b08d60d@65.2.94.204:26656,647ebc5ebe1ee59c910ac9e8148d401a99213fde@113.127.33.13:26656"
+persistent_peers = ""
 
 # UPNP port forwarding
 upnp = false
@@ -201,7 +201,7 @@ pex = true
 seed_mode = false
 
 # Comma separated list of peer IDs to keep private (will not be gossiped to other peers)
-#private_peer_ids = ""
+private_peer_ids = ""
 
 # Toggle to disable guard against peers connecting from the same ip.
 allow_duplicate_ip = false
@@ -297,7 +297,7 @@ index_all_tags = true
 # When true, Prometheus metrics are served under /metrics on
 # PrometheusListenAddr.
 # Check out the documentation for the list of available metrics.
-prometheus = false
+prometheus = true
 
 # Address to listen for Prometheus collector(s) connections
 prometheus_listen_addr = ":26660"
@@ -306,7 +306,7 @@ prometheus_listen_addr = ":26660"
 # If you want to accept a larger number than the default, make sure
 # you increase your OS limits.
 # 0 - unlimited.
-max_open_connections = 3
+max_open_connections = 100
 
 # Instrumentation namespace
 namespace = "tendermint"
